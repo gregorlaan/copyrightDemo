@@ -20,5 +20,11 @@ There are many solutions for displaying copyright text in your website footer. T
 <span>Copyright © <?php echo date("Y"); ?> Gregor Laan. All rights reserved.</span>
 ```
 
+### Using VueJS:
+
+```html
+<span>Copyright © {{ new Date().getFullYear() }} Gregor Laan. All rights reserved.</span>
+```
+
 ### Preview
 <span>Copyright © 2017 Gregor Laan. All rights reserved.</span>
